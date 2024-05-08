@@ -24,6 +24,7 @@ Here's a step-by-step list of instructions to get you up and running:
 These will change regularly as the code gets updated.
 1. Be specific, don't give the AI vague ideas or you run the risk of something breaking.
 2. Do step-by-step instructions if you can. This lets the AI know what order to execute commands and which steps caused an error.
-3. Don't ask for the impossible. The AI won't stop trying till it deems the task completed. You run the risk of breaking something.
+3. Don't ask for the impossible. The AI won't stop trying till it deems the task completed. You run the risk of breaking something. 
+
 Example Task:<br>
 Look for the folder test-3. If it exists, create a file called test-8.txt with the contents "This is a test file". Otherwise, create the folder and the file.
