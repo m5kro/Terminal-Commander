@@ -15,9 +15,10 @@ Here's a step-by-step list of instructions to get you up and running:
 2. Clone the repo with <br> `git clone https://github.com/m5kro/Terminal-Commander`
 3. Go into the directory <br> `cd Terminal-Commander`
 4. Install the requirements <br> `python3 -m pip install -r requirements.txt`
-5. Open up Terminal-Commander with your favorite text editor. Look for 'KEY HERE' and replace it with your cohere API key. Remember to keep the single quotes around it.
+5. Open up Terminal-Commander.py with your favorite text editor. Look for 'KEY HERE' and replace it with your cohere API key. Remember to keep the single quotes around it.
 6. Run Terminal-Commander <br> `python3 Terminal-Commander.py`
-7. Terminal-Commander will now ask for a task, try to be as specific as possible to prevent unwanted results. It is recommended you read the prompt tips before starting.
+7. Terminal-Commander will now ask for a task, try to be as specific as possible to prevent unwanted results.<br> ⚠THERE IS NO CONFIRMATION BEFORE RUNNING THE COMMANDS!!!⚠<br> It is recommended you read the prompt tips before starting.
+8. You can also edit the preamble in the Python file if you feel like it. This will usually change how the responses are formatted. If you can make it better feel free to make a pull request.
 
 # Prompt Tips
 These will change regularly as the code gets updated.
