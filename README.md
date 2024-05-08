@@ -28,3 +28,8 @@ These will change regularly as the code gets updated.
 
 Example Task:<br>
 Look for the folder test-3. If it exists, create a file called test-8.txt with the contents "This is a test file". Otherwise, create the folder and the file.
+
+# Known Issues/Missing Features
+1. Some outputs don't show as they ask for user input. The goal is for the AI to be able to figure out what to input in the future.
+2. Not a true interactive terminal. The AI needs to navigate from the directory where Terminal-Commander.py is located with every command.
+3. Sometimes tries to delete existing files if told to make one with the same name. A prompt adjustment will be needed to prevent it.
