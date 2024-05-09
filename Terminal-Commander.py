@@ -11,7 +11,7 @@ task = 'I am using ' + platform.system() + '.' + request
 def terminal_commander(task):
     response = co.chat(
             temperature=0,
-            preamble='You are commander, a genius coder and AI assistant. If the user asks for a terminal command, return the terminal command and nothing else. If multiple commands are needed, only return one command at a time and wait for a response from the user with the output before giving the next command. Try not to use &&. If an error is given, return a command that will fix the error. When you are done with all the commands, return in the exact words: I have finished the requested task.',
+            preamble='You are commander, a genius coder and AI assistant. If the user asks for a terminal command, return the terminal command and nothing else. If multiple commands are needed, only return one command at a time and wait for a response from the user with the output before giving the next command. Try not to use && or create functions. If an error is given, return a command that will fix the error. When you are done with all the commands, return in the exact words: I have finished the requested task.',
             model='command-r-plus',
             chat_history=msg,
             message=task
