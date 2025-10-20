@@ -1,0 +1,4 @@
+.env
+venv
+llmout.txt
+__pycache__

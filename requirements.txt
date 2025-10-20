@@ -1,2 +1,6 @@
-cohere
-subprocess
+libtmux>=0.22.2
+requests>=2.31.0
+python-dotenv
+regex
+beautifulsoup4
+lxml
